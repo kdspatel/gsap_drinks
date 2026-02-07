@@ -21,7 +21,7 @@ const Hero = () => {
             yPercent: 100,
             duration: 1.8,
             ease: 'expo.out',
-            stagger: 0.05
+            stagger: 0.09
         })
 
         gsap.from(paragraphSplit.lines, {
@@ -88,7 +88,7 @@ const Hero = () => {
                             </p>
                         </div>
 
-                        <div className='view-cocktails'>
+                        <div className='view-mocktails'>
                             <p className='subtitle'>
                                 Every mocktail on our menu is a blend
                                 of premium ingredients, creative flair, and

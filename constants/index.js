@@ -17,57 +17,63 @@ const navLinks = [
  },
 ];
 
-const mockTailLists1 = [
+const mocktailLists1 = [
  {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
+	name: "Watermelon Mojito",
+	country: "IN",
 	detail: "Battle",
-	price: "$10",
+	price: "₹ 150",
  },
  {
-	name: "Caten Malbee",
-	country: "AU",
+	name: "Mint Mojito",
+	country: "IN",
 	detail: "Battle",
-	price: "$49",
+	price: "₹ 110",
+
  },
  {
-	name: "Rhino Pale Ale",
-	country: "CA",
+	name: "Kiwi Mojito",
+	country: "IN",
 	detail: "750 ml",
-	price: "$20",
+	price: "₹ 130",
+
  },
  {
-	name: "Irish Guinness",
-	country: "IE",
+	name: "Berry Blast",
+	country: "IN",
 	detail: "600 ml",
-	price: "$29",
+	price: "₹ 190",
+
  },
 ];
 
-const mockTailLists2 = [
+const mocktailLists2 = [
  {
-	name: "Tropical Bloom",
-	country: "US",
+	name: "Straberry Rose Cooler",
+	country: "IN",
 	detail: "Battle",
-	price: "$10",
+	price: "₹ 200",
+
  },
  {
-	name: "Passionfruit Mint",
-	country: "US",
+	name: "Litchi Cooler",
+	country: "IN",
 	detail: "Battle",
-	price: "$49",
+	price: "₹ 110",
+
  },
  {
-	name: "Citrus Glow",
-	country: "CA",
+	name: "Guvava Mary",
+	country: "IN",
 	detail: "750 ml",
-	price: "$20",
+	price: "₹ 120",
  },
  {
-	name: "Lavender Fizz",
-	country: "IE",
+	name: "Blue Lagoon",
+	country: "IN",
 	detail: "600 ml",
-	price: "$29",
+	price: "₹ 190",
+
  },
 ];
 
@@ -137,42 +143,42 @@ const socials = [
 const sliderLists = [
  {
 	id: 1,
-	name: "Classic Mojito",
+	name: "Sunset",
 	image: "/images/drink1.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Made with orange juice , watermelon juice & sprite",
  },
  {
 	id: 2,
-	name: "Raspberry Mojito",
+	name: "Mango Margarita",
 	image: "/images/drink2.png",
 	title: "A Zesty Classic That Never Fails",
 	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+	 "The Margarita is a classic that balances lemon juice, mongo crush , litchi crush & mango juice",
  },
  {
 	id: 3,
-	name: "Violet Breeze",
+	name: "Pudina Punch",
 	image: "/images/drink3.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Made with fresh pudina , sugar , line juice , apple juice & sprite",
  },
  {
 	id: 4,
-	name: "Curacao Mojito",
+	name: "Lavender Fizz",
 	image: "/images/drink4.png",
 	title: "Crafted With Care, Poured With Love",
 	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+	 "Each mocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
  },
 ];
 
 export {
  navLinks,
- mockTailLists1,
- mockTailLists2,
+ mocktailLists1,
+ mocktailLists2,
  profileLists,
  featureLists,
  goodLists,
