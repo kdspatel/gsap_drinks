@@ -78,7 +78,7 @@ body {
         }
 
         ul {
-            @apply flex-center lg:gap-12 gap-7;
+            @apply flex-center lg:gap-10 gap-3;
         }
     }
 
