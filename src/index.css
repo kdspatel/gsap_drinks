@@ -326,7 +326,7 @@ body {
                 @apply space-y-4 lg:translate-y-10 mt-[-120px] ;
 
                 #title {
-                    @apply font-modern-negra md:text-3xl text-2xl text-yellow max-w-40;
+                    @apply font-modern-negra md:text-5xl text-2xl text-yellow max-w-40;
                 }
             }
 
