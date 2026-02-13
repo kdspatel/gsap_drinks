@@ -126,21 +126,21 @@ const socials = [
  {
 	name: "Instagram",
 	icon: "/images/insta.png",
-	url: "#",
+	url: "https://www.instagram.com/",
  },
  {
 	name: "X (Twitter)",
 	icon: "/images/x.png",
-	url: "#",
+	url: "https://x.com/",
  },
  {
 	name: "Facebook",
 	icon: "/images/fb.png",
-	url: "#",
+	url: "https://www.facebook.com/",
  },
 ];
 
-const sliderLists = [
+const allMocktails = [
  {
 	id: 1,
 	name: "Sunset",
@@ -159,19 +159,19 @@ const sliderLists = [
  },
  {
 	id: 3,
-	name: "Pudina Punch",
-	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with fresh pudina , sugar , line juice , apple juice & sprite",
- },
- {
-	id: 4,
 	name: "Lavender Fizz",
-	image: "/images/drink4.png",
+	image: "/images/drink3.png",
 	title: "Crafted With Care, Poured With Love",
 	description:
 	 "Each mocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+ },
+ {
+	id: 4,
+	name: "Pudina Punch",
+	image: "/images/drink4.png",
+	title: "Simple Ingredients, Bold Flavor",
+	description:
+	 "Made with fresh pudina , sugar , lime juice & sprite",
  },
 ];
 
@@ -185,5 +185,5 @@ export {
  openingHours,
  storeInfo,
  socials,
- sliderLists,
+ allMocktails,
 };
